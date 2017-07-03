@@ -3,16 +3,12 @@
     font-family: monospace;
 }
 
-.container {
-    text-align: left;
-}
-
 .display {
-    text-align: left;
+    text-align: center;
 }
 
 .description {
-    text-align: left;
+    text-align: justify;
 }
 
 .logo {
