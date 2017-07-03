@@ -3,9 +3,24 @@
     font-family: monospace;
 }
 
-#logo {
-    @media (max-width: 650px) {
-        margin-top: 120px;
-        width: 200px;
-    }
+.container {
+    text-align: left;
+}
+
+.display {
+    text-align: left;
+}
+
+.description {
+    text-align: left;
+}
+
+.logo {
+  width: 60vw;
+  
+  @media (max-width: 650px) {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+  }
 }
